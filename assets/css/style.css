@@ -756,15 +756,6 @@ section {
   color: #070707;
 }
 
-/* .intro larger-text {
-  margin-left: 50px;
-  margin-right:50px;
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: bold;
-  color: #800909;
-} */
-
 .larger-text {
   font-size: 30px;
   color: blueviolet;
@@ -772,6 +763,11 @@ section {
 
 u {
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  .intro {
+    margin: 30px 10px;
+  }
 }
 /*--------------------------------------------------------------
 # Counts
